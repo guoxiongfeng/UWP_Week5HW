@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tile>
+  <visual branding="name">
+    <binding template="TileSmall">
+      <text  hint-style="caption" hint-wrap ="true">titlestring</text>
+      <text hint-style="captionSubtle" hint-wrap="true">description</text>
+    </binding>
+    <binding template="TileMedium">
+      <text  hint-style="caption" hint-wrap ="true">titlestring</text>
+      <text hint-style="captionSubtle" hint-wrap="true">description</text>
+    </binding>
+
+    <binding template="TileWide">
+      <group>
+        <subgroup hint-weight="23">
+          <image src="imagesrc" />
+        </subgroup>
+        <subgroup hint-weight="33">
+          <text hint-style="Title" hint-wrap ="true">titlestring</text>
+                  <text hint-style="caption" hint-wrap="true" hint-maxLines="0">description</text>
+                  <text hint-style="captionSubtle">date</text>
+        </subgroup>
+      </group>
+    </binding>
+
+    <binding template="TileLarge">
+      <group >
+        <subgroup hint-weight="70">
+          <image src="imagesrc" />
+        </subgroup>
+        <subgroup>
+          <text hint-style="title" hint-wrap ="true">titlestring</text>
+        </subgroup>
+      </group>
+      <group>
+            <subgroup >
+                  <text hint-style="caption" hint-wrap="true" hint-maxLines="0" hint-align = "center">description</text>
+                  <text hint-style="captionSubtle" hint-align = "center">date</text>
+            </subgroup>
+       </group>
+    </binding>
+
+  </visual>
+</tile>

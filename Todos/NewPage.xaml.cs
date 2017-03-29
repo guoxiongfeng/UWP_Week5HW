@@ -60,7 +60,7 @@ namespace Todos
                
                 if (createButton.Content.ToString() == "Create") CreateButton_Clicked(sender, e);
                 else UpdateButton_Clicked(sender, e);
-                    TileService.SendTileNotification(ViewModel.SelectedItem.title, ViewModel.SelectedItem.description, ViewModel.SelectedItem.image, ViewModel.SelectedItem.date);
+                    TileService.SendTileNotification(ViewModel.SelectedItem.Getid(),ViewModel.SelectedItem.title, ViewModel.SelectedItem.description, ViewModel.SelectedItem.image, ViewModel.SelectedItem.date);
 
                 Frame.Navigate(typeof(MainPage), ViewModel);
             }
@@ -154,7 +154,7 @@ namespace Todos
             // 'file' is null if user cancels the file picker.
             if (file != null)
             {
-                var destFile = await file.CopyAsync(Windows.Storage.ApplicationData.Current.LocalFolder, file.Name, NameCollisionOption.ReplaceExisting);
+                var destFile = await file.CopyAsync(Windows.Storage.ApplicationData.Current.LocalFolder, file.Name, NameCollisionOption.GenerateUniqueName);
                 Uri PicUri = new Uri(new Uri("ms-appdata:///local/"), destFile.Name);
                 // Open a stream for the selected file.
                 // The 'using' block ensures the stream is disposed

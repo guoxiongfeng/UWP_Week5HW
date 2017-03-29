@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a1351879-831f-485d-9b9d-e9032ad2cebc</PackageIdentityName>
     <PackageIdentityPublisher>CN=yiting</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-24T14:12:39.408</Modified>
+      <Modified>2017-03-29T09:18:27.626</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\bin\x86\Debug\Todos.exe">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\bin\x86\Debug\Todos.exe">
       <PackagePath>entrypoint\Todos.exe</PackagePath>
-      <Modified>2017-03-24T14:12:38.549</Modified>
+      <Modified>2017-03-29T09:18:23.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gxf\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -472,96 +472,96 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\ApplicationInsights.config">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2017-03-08T09:51:44.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\tile.xml">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\tile.xml">
       <PackagePath>tile.xml</PackagePath>
-      <Modified>2017-03-24T11:15:59.559</Modified>
+      <Modified>2017-03-26T15:22:05.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-03-08T09:51:58.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\background.jpg">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
       <Modified>2017-03-08T09:51:46.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\lightColorBG.jpg">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\lightColorBG.jpg">
       <PackagePath>Assets\lightColorBG.jpg</PackagePath>
-      <Modified>2017-03-24T05:45:34.071</Modified>
+      <Modified>2017-03-26T15:20:51.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-03-08T09:51:46.147</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-08T09:51:46.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-08T09:51:46.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-24T05:45:34.071</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\bin\x86\Debug\Todos.xr.xml">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\bin\x86\Debug\Todos.xr.xml">
       <PackagePath>Todos.xr.xml</PackagePath>
       <Modified>2017-03-24T13:43:39.487</Modified>
     </AppxPackagedFile>
@@ -569,14 +569,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-02-24T05:12:44.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-24T13:43:41.623</Modified>
+      <Modified>2017-03-29T09:18:27.030</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week5\Week5 HW\Todos\Todos\bin\x86\Debug\Core\Todos.exe">
+    <AppxPackagedFile Include="E:\现代操作系统应用开发\Week6\Week6 HW\Todos\Todos\bin\x86\Debug\Core\Todos.exe">
       <PackagePath>Todos.exe</PackagePath>
-      <Modified>2017-03-24T14:12:39.401</Modified>
+      <Modified>2017-03-29T09:18:27.620</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

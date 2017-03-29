@@ -4,10 +4,12 @@
     <binding template="TileSmall">
       <text  hint-style="caption" hint-wrap ="true">titlestring</text>
       <text hint-style="captionSubtle" hint-wrap="true">description</text>
+      <image src="Assets/lightColorBG.jpg" placement="background"/>
     </binding>
     <binding template="TileMedium">
       <text  hint-style="caption" hint-wrap ="true">titlestring</text>
       <text hint-style="captionSubtle" hint-wrap="true">description</text>
+      <image src="Assets/lightColorBG.jpg" placement="background"/>
     </binding>
 
     <binding template="TileWide">
@@ -21,6 +23,7 @@
                   <text hint-style="captionSubtle">date</text>
         </subgroup>
       </group>
+      <image src="Assets/lightColorBG.jpg" placement="background"/>
     </binding>
 
     <binding template="TileLarge">
@@ -38,6 +41,7 @@
                   <text hint-style="captionSubtle" hint-align = "center">date</text>
             </subgroup>
        </group>
+      <image src="Assets/lightColorBG.jpg" placement="background"/>
     </binding>
 
   </visual>

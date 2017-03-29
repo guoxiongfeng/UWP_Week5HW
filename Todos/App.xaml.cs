@@ -68,6 +68,8 @@ public object Convert(object value, Type targetType, object parameter, string la
         /// 初始化单一实例应用程序对象。这是执行的创作代码的第一行，
         /// 已执行，逻辑上等同于 main() 或 WinMain()。
         /// </summary>
+
+        private TileUpdater tileUpdate;
         public App()
         {
             Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
@@ -82,9 +84,14 @@ public object Convert(object value, Type targetType, object parameter, string la
         /// 将在启动应用程序以打开特定文件等情况下使用。
         /// </summary>
         /// <param name="e">有关启动请求和过程的详细信息。</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        public TileUpdater getTileUpdater()
         {
-            TileUpdater tileUpdate=  TileUpdateManager.CreateTileUpdaterForApplication();
+            if (tileUpdate == null) tileUpdate =  TileUpdateManager.CreateTileUpdaterForApplication();
+            return tileUpdate;
+        }
+        protected override void OnLaunched(LaunchActivatedEventArgs e) 
+        {
+            TileUpdater tileUpdate=  getTileUpdater();
             tileUpdate.EnableNotificationQueue(true);
             tileUpdate.Clear();
 #if DEBUG

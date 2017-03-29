@@ -14,6 +14,7 @@ using Windows.ApplicationModel.DataTransfer;
 using Windows.Storage;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.Storage.Streams;
+using Todos;
 //“空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409 上有介绍
 
 namespace Todos
@@ -111,7 +112,7 @@ namespace Todos
             {
                 if (createButton.Content.ToString() == "Create") CreateButton_Clicked(sender, e);
                 else UpdateButton_Clicked(sender, e);
-                if (ViewModel.SelectedItem != null) TileService.SendTileNotification(ViewModel.SelectedItem.title, ViewModel.SelectedItem.description, ViewModel.SelectedItem.image, ViewModel.SelectedItem.date);
+                if (ViewModel.SelectedItem != null) TileService.SendTileNotification(ViewModel.SelectedItem.Getid(), ViewModel.SelectedItem.title, ViewModel.SelectedItem.description, ViewModel.SelectedItem.image, ViewModel.SelectedItem.date);
             }
             
         }
@@ -130,9 +131,12 @@ namespace Todos
 
         private void GenerateTiles()
         {
+          /*  App app = (App.Current) as App;
+
+            app.getTileUpdater().Clear();*/
             foreach (var item in ViewModel.AllItems)
             {
-                TileService.SendTileNotification(item.title, item.description, item.image, item.date);
+                TileService.SendTileNotification(item.Getid(), item.title, item.description, item.image, item.date);
             }
 
         }

@@ -17,7 +17,7 @@ namespace Todos.Services
 {
     public class TileService
     {
-        public static void SendTileNotification(string title, string description, ImageSource picture, DateTime date)
+        public static void SendTileNotification(string identifier, string title, string description, ImageSource picture, DateTime date)
         {
             // Generate the notification content
             XDocument xdoc = XDocument.Load("tile.xml");
@@ -33,7 +33,7 @@ namespace Todos.Services
             TileNotification notification = new TileNotification(xml);
 
             // Set the tag so that we can update (replace) this notification later
-            notification.Tag = title;
+            notification.Tag = identifier.Substring(0, 10);
 
             // Send the notification
             TileUpdateManager.CreateTileUpdaterForApplication().Update(notification);
